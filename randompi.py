@@ -8,8 +8,8 @@ cofactors = 0
 
 for i in range(sys.maxsize):
     try:
-        x = random.randint(1, 121)
-        y = random.randint(1, 121)
+        x = random.randint(1, 1000000)
+        y = random.randint(1, 1000000)
         gcd = fractions.gcd(x, y)
 
         if gcd == 1:
