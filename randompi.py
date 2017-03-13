@@ -6,10 +6,12 @@ import fractions
 coprimes = 0
 cofactors = 0
 
+max_random_number = sys.maxsize
+
 for i in range(sys.maxsize):
     try:
-        x = random.randint(1, 1000000)
-        y = random.randint(1, 1000000)
+        x = random.randint(1, max_random_number)
+        y = random.randint(1, max_random_number)
         gcd = fractions.gcd(x, y)
 
         if gcd == 1:
