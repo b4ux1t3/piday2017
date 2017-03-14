@@ -45,4 +45,4 @@ million_max_value = [randompi.run_calculation(1000001) for i in range(1000)]
 
 million_max_value_average = average(million_max_value)
 
-print("A million tries at max value average estimation for pi:\t{}".format(baseline_average))
+print("A million tries at max value average estimation for pi:\t{}".format(million_max_value_average))
