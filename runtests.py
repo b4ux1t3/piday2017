@@ -29,7 +29,7 @@ million_baseline = [randompi.run_calculation(1000001, max_random_number=121) for
 
 million_baseline_average = average(million_baseline)
 
-print("            Million baseline average estimation for pi:\t{}".format(baseline_average))
+print("            Million baseline average estimation for pi:\t{}".format(million_baseline_average))
 
 # Iterations = 500
 # Default max value (sys.maxsize)
