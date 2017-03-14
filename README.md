@@ -15,8 +15,8 @@ Just type that in. Yeah, I'm using Python 3. No, I don't intend to backportit to
 
 The program is quick and dirty, but it gets the job done. It will run until either it goes through every possible positive integer on your system (`sys.maxsize`), or until you hit `Ctrl+C`.
 
-## Componentized Branch
-This branch will likely be merged with the master, as it is superior in every way to the original design. For now, though, I'll just explain how it works here instead of changing the rest of the README. Functionally, this paramaterizes everything in the program, and makes it so that it can be imported by another python program. That gives me the chance to run lots of tests and see which method (expressed in a comment [here](https://www.reddit.com/r/math/comments/5z5sxx/generating_%CF%80_from_1000_random_numbers_matt_parker/dew3yxz/). Thanks, [/u/Tomus](https://www.reddit.com/user/Tomus)) will produce a more accurate approximation of pi.
+## Running tests
+`runtests.py` allows me to test which method (expressed in a comment [here](https://www.reddit.com/r/math/comments/5z5sxx/generating_%CF%80_from_1000_random_numbers_matt_parker/dew3yxz/). Thanks, [/u/Tomus](https://www.reddit.com/user/Tomus)) will produce a more accurate approximation of pi.
 
 Yay!
 
