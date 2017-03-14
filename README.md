@@ -22,6 +22,6 @@ Yay!
 
 In order to run these tests, just type:
 
-`python runtests.py`
+`python3 runtests.py`
 
 Be warned, it's probably going to take a while. I have yet to actually finish a full run, and I'm not timing anything. Good luck to you.
