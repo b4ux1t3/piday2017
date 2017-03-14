@@ -3,39 +3,6 @@ import math
 import sys 
 import fractions
 
-<<<<<<< HEAD
-coprimes = 0
-cofactors = 0
-
-max_random_number = 121
-
-for i in range(sys.maxsize):
-    try:
-        x = random.randint(1, max_random_number)
-        y = random.randint(1, max_random_number)
-        gcd = fractions.gcd(x, y)
-
-        if gcd == 1:
-            coprimes += 1
-        else:
-            cofactors += 1
-        if i % 100000 == 0:
-            print("Currently on {}".format(i))
-
-    except KeyboardInterrupt:
-        break
-
-total = coprimes + cofactors
-coprime_probability = coprimes / total
-pi_estimate = math.sqrt(6 / coprime_probability)
-
-print()
-print("        Total Tries:\t{}".format(total))
-print("           Coprimes:\t{}".format(coprimes))
-print("          Cofactors:\t{}".format(cofactors))
-print("Coprime probability:\t{}".format(coprime_probability))
-print("        Pi Estimate:\t{}".format(pi_estimate))
-=======
 # run_calculation takes a number of iterations to perform and then runs that many
 # random number coprime comparisons. It returns a value for pi. It also optionally 
 # takes in a maximum random number, which defaults to sys.maxsize.
@@ -88,5 +55,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
->>>>>>> bigger_numbers
